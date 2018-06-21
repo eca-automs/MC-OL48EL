@@ -1,5 +1,8 @@
 # MC-OL48EL
 
+Schema per quadro elettrico per ascensore, impianto
+oleodinamico e operatore porte elettronico.
+
 ## Licenza
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>.
@@ -11,36 +14,59 @@ Fatta eccezione del logo
 e del nome `Eca di Belardi Roberto`.
 
 Copyright (C) 2018  Eca di Belardi Roberto.
+
 ### Scheda controllo
 MCPX2015-SMD - PER16B-SMD
 
 ### Tipo impianto
-Fune
+Oleodinamico.
 
 ### Manovra
-Tipo di manovra
+Universale.
 
 ### Collegamento vano / cabina
 Vano|Cabina
 ---|---
-tipo collegamento vano|  tipo collegamento cabina
+parallelo|  parallelo
 
 ### Operatore porte
-Tipo di operatore porte
+Automatico elettronico.
 
 ### Avviamento / controllo motore
-Tipo di avviamento (VVVF, soft starter con specifiche modelli e marche).
+Avviamento diretto, avviamento soft-starter (con SMS-start), stella-triangolo.
 
 ### Potenza massima motore / taglie compatibili
+
+#### Avviamento diretto
 Taglia|Potenza
 ---|---
-SXX|XCV-XXXVAC
+S20|8CV-230VAC/15CV-400VAC
+S30|10CV-230VAC/17CV-400VAC
+
+#### Avviamento stella triangolo
+Taglia|Potenza
+---|---
+S40|14CV-230VAC/22CV-400VAC
+S50|17CV-230VAC/28CV-400VAC
+
+#### Avviamento soft-starter
+Taglia|Potenza
+---|---
+S40|10CV-230VAC/20CV-400VAC
+S50|13CV-230VAC/25CV-400VAC
 
 ### Allarme
 Tipo di allarme
 
-### Emergenza
-Tipo di emergenza
+### Allarme
+12VDC, legge 13, allarme porte aperte fuori piano
 
-### Opzioni
-Elenco opzioni aggiuntive (emendamento A3, fossa o testata ridotta etc..)
+### Emergenza
+Completa con gruppo batterie a 48VDC.
+
+### Emendamento A3
+Nessuno.
+
+### Gestione EN8120
+
+Nessuna gestione.

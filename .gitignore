@@ -3,3 +3,5 @@
 \#*.dxf
 
 node_modules
+ecadoc/public
+ecadoc/download
